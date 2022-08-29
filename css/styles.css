@@ -210,14 +210,11 @@ body {
 
 .benefits .list {
   display: flex;
+  gap: 30px;
 }
 
 .benefits-item {
   width: 270px;
-}
-
-.benefits-item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .benefits-title {
@@ -405,6 +402,7 @@ body {
 }
 
 .page-footer .logo {
+  display: block;
   margin-bottom: 20px;
   margin-right: 0;
 }
